@@ -13,10 +13,10 @@ public class Book {
         return  nameWriter;
     }
     public void setAgeOut(int age) {
-        this.ageOut = age;
+        ageOut = age;
     }
 
     public String toString() {
-        return "Автор книги : " + this.nameWriter + "\nГод выпуска : " + this.ageOut;
+        return "Автор книги : " + nameWriter + "\nГод выпуска : " + ageOut;
     }
 }

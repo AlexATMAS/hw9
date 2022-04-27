@@ -6,12 +6,12 @@ public class Author {
         this.surnameWriter = surnameWriter;
     }
     public String getNameWriter() {
-        return this.nameWriter;
+        return nameWriter;
     }
     public String getSurnameWriter() {
-        return this.surnameWriter;
+        return surnameWriter;
     }
     public String toString() {
-        return this.nameWriter + " " + this.surnameWriter;
+        return nameWriter + " " + surnameWriter;
     }
 }

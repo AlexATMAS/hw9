@@ -12,6 +12,6 @@ public class StartBook {
         System.out.println("Имя автора книги1 = " + book1.getNameWriter());
 
 
-        System.out.println(book1);
+        System.out.println(book2);
     }
 }
