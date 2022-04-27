@@ -12,6 +12,6 @@ public class Author {
         return this.surnameWriter;
     }
     public String toString() {
-        return "Автор книги : " + nameWriter + " " + surnameWriter;
+        return this.nameWriter + " " + this.surnameWriter;
     }
 }

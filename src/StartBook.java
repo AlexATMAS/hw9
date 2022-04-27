@@ -10,5 +10,8 @@ public class StartBook {
         book2.setAgeOut(2055);
         System.out.println("Измененный год выпуска книги2 : " + book2.getAgeOut());
         System.out.println("Имя автора книги1 = " + book1.getNameWriter());
+
+
+        System.out.println(book1);
     }
 }
