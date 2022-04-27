@@ -1,22 +1,32 @@
 public class Book {
-
     private  int ageOut;
-    private String nameWriter;
-    public Book(int ageOut, Author nameWriter) {
+    private Author author;
+   private String nameBook;
+    public Book(int ageOut, Author author,String nameBook) {
         this.ageOut = ageOut;
-        this.nameWriter = nameWriter.toString();
+        this.author = author;
+        this.nameBook = nameBook;
     }
     public int getAgeOut() {
         return ageOut;
     }
-    public String getNameWriter() {
-        return  nameWriter;
+    public Author getAuthor() {
+        return  author;
     }
+    public String getNameBook() {
+        return nameBook;
+    }
+    public String getNameWriter() {
+        return author.getNameWriter();
+    }
+    public String getSurNameWriter() {
+        return author.getSurnameWriter();
+    }
+
     public void setAgeOut(int age) {
         ageOut = age;
     }
-
     public String toString() {
-        return "Автор книги : " + nameWriter + "\nГод выпуска : " + ageOut;
+        return "Название книги: " + nameBook + "\nГод выпуска : " + ageOut + "\nАвтор произведения: " + author;
     }
 }

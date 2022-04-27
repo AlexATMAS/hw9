@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4c72716-8be6-4982-ab9e-495a1a017856" name="Changes" comment="исправлен метод toString();">
+    <list default="true" id="e4c72716-8be6-4982-ab9e-495a1a017856" name="Changes" comment="Доработка кода">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StartBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartBook.java" afterDir="false" />
     </list>
@@ -87,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651056031659</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Доработка кода">
+      <created>1651056390431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651056390431</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="исправлен метод toString();" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправлен метод toString();" />
+    <MESSAGE value="Доработка кода" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доработка кода" />
   </component>
 </project>
